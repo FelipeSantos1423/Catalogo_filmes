@@ -10,7 +10,7 @@ O projeto consome a API do TMDb para listar filmes populares, realizar buscas e 
 
 - Next.js
 - React
-- TypeScript
+- JavaScript
 - Tailwind CSS
 - TanStack Query
 - TMDb API
@@ -44,20 +44,12 @@ O projeto consome a API do TMDb para listar filmes populares, realizar buscas e 
 - [x] Layout responsivo
 - [x] Interface desenvolvida com Tailwind CSS
 
-## Bônus implementados
-- [ ] Loading spinner
-- [x] Tratamento para buscas sem resultado
-- [ ] Debounce na busca
-- [ ] Paginação / carregar mais
-
----
-
 # ⚙️ Como executar o projeto
 
 ## Clone o repositório no Git Bash
 
 ```bash
-git clone https://github.com/FelipeSantos1423/Teste_Next.git
+git clone https://github.com/FelipeSantos1423/Catalogo_filmes
 ```
 
 ## Acesse a pasta do projeto no Git Bash
@@ -81,7 +73,7 @@ npm install @tanstack/react-query
 Crie o arquivo `.env.local` na raiz do projeto:
 
 ```env
-NEXT_PUBLIC_API_KEY=2c1b61e4d1a903376ddf530d4742259c
+NEXT_PUBLIC_API_KEY= 'Sua chave da API'
 ```
 
 ## Execute o projeto no terminal do VS Code
