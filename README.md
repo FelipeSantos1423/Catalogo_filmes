@@ -1,109 +1,83 @@
 # 🎬 Catálogo de Filmes
 
-Aplicação desenvolvida como teste técnico para vaga de Estágio de Desenvolvedor Front-end Júnior.
+Aplicação web desenvolvida para explorar filmes utilizando dados da **TMDb API**. O projeto permite visualizar filmes populares, realizar buscas e acessar informações detalhadas de cada título.
 
-O projeto consome a API do TMDb para listar filmes populares, realizar buscas e visualizar detalhes dos filmes.
+## ✨ Funcionalidades
 
----
+* 🎞️ Listagem de filmes populares
+* 🔎 Busca de filmes
+* ⚡ Filtro em tempo real
+* 🎬 Página de detalhes de cada filme
+* 📱 Interface responsiva
+* 🔌 Consumo de API externa
 
-# 🚀 Tecnologias utilizadas
+## 🛠️ Tecnologias
 
-- Next.js
-- React
-- JavaScript
-- Tailwind CSS
-- TanStack Query
-- TMDb API
+* **JavaScript**
+* **React**
+* **Next.js**
+* **Tailwind CSS**
+* **TanStack Query**
+* **TMDb API**
 
----
+## 📸 Sobre o projeto
 
-# 📋 Requisitos implementados
+Este foi um dos meus primeiros projetos utilizando **React**, sendo também meu primeiro contato com o desenvolvimento de aplicações utilizando **Next.js** e consumo de APIs externas.
 
-## Setup
-- [x] Projeto criado com Next.js
-- [x] Tailwind CSS configurado
-- [x] TanStack Query configurado
+O projeto foi importante para colocar em prática conceitos de componentes, requisições HTTP, gerenciamento de dados, rotas dinâmicas e desenvolvimento de interfaces responsivas.
 
-## Página principal (/)
-- [x] Listagem de filmes populares
-- [x] Consumo da API do TMDb
-- [x] Componente reutilizável `MovieCard`
-- [x] Exibição de pôster, título e ano
-- [x] Barra de busca
-- [x] Filtro em tempo real
+## 🚀 Como executar
 
-## Página de detalhes (/movie/[id])
-- [x] Página dinâmica por ID
-- [x] Busca individual do filme
-- [x] Exibição de pôster
-- [x] Exibição de título
-- [x] Exibição de sinopse
-- [x] Exibição da data de lançamento
-
-## Estilização
-- [x] Layout responsivo
-- [x] Interface desenvolvida com Tailwind CSS
-
-# ⚙️ Como executar o projeto
-
-## Clone o repositório no Git Bash
+### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/FelipeSantos1423/Catalogo_filmes
+git clone https://github.com/FelipeSantos1423/Catalogo_filmes.git
 ```
 
-## Acesse a pasta do projeto no Git Bash
+### 2. Acesse o projeto
 
 ```bash
-cd Teste_Next
+cd Catalogo_filmes
 ```
 
-## Instale as dependências no terminal do VS Code
+### 3. Instale as dependências
 
-```terminal do VS Code
+```bash
 npm install
 ```
 
-```terminal do VS Code
-npm install @tanstack/react-query
-```
+### 4. Configure a API
 
-## Configure as variáveis de ambiente
-
-Crie o arquivo `.env.local` na raiz do projeto:
+Crie um arquivo `.env.local` na raiz do projeto:
 
 ```env
-NEXT_PUBLIC_API_KEY= 'Sua chave da API'
+NEXT_PUBLIC_API_KEY=sua_chave_da_api
 ```
 
-## Execute o projeto no terminal do VS Code
+Você pode obter uma chave através da [TMDb](https://www.themoviedb.org/).
 
-```terminal do VS Code
+### 5. Execute o projeto
+
+```bash
 npm run dev
 ```
 
-A aplicação estará disponível em:
+Depois, acesse:
 
-```terminal do VS Code
+```text
 http://localhost:3000
 ```
 
----
+## 📁 Estrutura principal
 
-# 🔌 API utilizada
+## 🌐 API
 
-TMDb (The Movie Database)
+Os dados dos filmes são obtidos através da **The Movie Database (TMDb) API**.
 
-https://www.themoviedb.org/
+🔗 https://www.themoviedb.org/
 
----
+## 👨‍💻 Autor
 
-# 📱 Responsividade
+**Felipe dos Santos Pinto**
 
-O projeto foi desenvolvido para funcionar em dispositivos desktop e mobile.
-
----
-
-# 👨‍💻 Autor
-
-Felipe dos Santos Pinto
+Estudante de Análise e Desenvolvimento de Sistemas e Desenvolvedor em formação.
